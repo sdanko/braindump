@@ -12,17 +12,21 @@ Collection of notes, TILs, how to do`s and stuff like that.
 
 ### Git
 
+- [Git HEAD](Git/git-head.md)
+- [Git merge](Git/git-merge.md)
+- [Git rebase](Git/git-rebase.md)
+
 ### Java
 
 ### JavaScript
 
-- [JavaScript uses 64-bit floating point numbers](https://github.com/sdanko/braindump/blob/master/JavaScript/JS-64-bit-numbers.md) 
-- [`this` in JavaScript](https://github.com/sdanko/braindump/blob/master/JavaScript/JS-this.md) 
-- [Array Reduce](https://github.com/sdanko/braindump/blob/master/JavaScript/array-reduce.md) 
-- [Closures](https://github.com/sdanko/braindump/blob/master/JavaScript/closures.md) 
-- [Differences between declarations](https://github.com/sdanko/braindump/blob/master/JavaScript/declaration-differences.md) 
-- [ES versions](https://github.com/sdanko/braindump/blob/master/JavaScript/es-versions.md) 
-- [Hoisting](https://github.com/sdanko/braindump/blob/master/JavaScript/hoisting.md) 
-- [Prototypal inheritance](https://github.com/sdanko/braindump/blob/master/JavaScript/prototypal-inheritance.md) 
-- [Prototype chain](https://github.com/sdanko/braindump/blob/master/JavaScript/prototype-chain.md) 
-- [Type conversion and coercion](https://github.com/sdanko/braindump/blob/master/JavaScript/type-conversion-coercion.md) 
+- [JavaScript uses 64-bit floating point numbers](JavaScript/JS-64-bit-numbers.md) 
+- [`this` in JavaScript](JavaScript/JS-this.md) 
+- [Array Reduce](JavaScript/array-reduce.md) 
+- [Closures](JavaScript/closures.md) 
+- [Differences between declarations](JavaScript/declaration-differences.md) 
+- [ES versions](JavaScript/es-versions.md) 
+- [Hoisting](JavaScript/hoisting.md) 
+- [Prototypal inheritance](JavaScript/prototypal-inheritance.md) 
+- [Prototype chain](JavaScript/prototype-chain.md) 
+- [Type conversion and coercion](JavaScript/type-conversion-coercion.md) 

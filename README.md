@@ -10,6 +10,8 @@ Collection of notes, TILs, how to do`s and stuff like that.
 
 ### Algorithms & Data Structures
 
+- [Big O Notation](<Algorithms & Data Structures/big-o-notation.md>)
+
 ### Git
 
 - [Git HEAD](Git/git-head.md)
@@ -17,6 +19,8 @@ Collection of notes, TILs, how to do`s and stuff like that.
 - [Git rebase](Git/git-rebase.md)
 
 ### Java
+
+- [`instanceof` With Pattern Matching](Java/instanceof-pattern-matching.md)
 
 ### JavaScript
 
@@ -30,3 +34,7 @@ Collection of notes, TILs, how to do`s and stuff like that.
 - [Prototypal inheritance](JavaScript/prototypal-inheritance.md) 
 - [Prototype chain](JavaScript/prototype-chain.md) 
 - [Type conversion and coercion](JavaScript/type-conversion-coercion.md) 
+
+Useful links:
+- https://github.com/30-seconds/30-seconds-of-interviews
+- https://techinterviewhandbook.org/best-practice-questions/

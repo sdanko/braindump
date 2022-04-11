@@ -4,7 +4,7 @@ Unlike Java, C#, C++, and Python (among many others), JavaScript is not a class-
 
 Every object in JavaScript has a built-in property which represents the objects **prototype**. The prototype is itself an object. Every prototype can have its own prototype, making what's called a **prototype chain**. This chain ends when we reach the objects that has `null` for its prototype.
 
-###Prototype properties
+### Prototype properties
 
 We can encounter different types of object properties that are related to prototype. They are important for understanding the concept of **prototype chain**.
 

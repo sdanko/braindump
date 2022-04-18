@@ -16,7 +16,7 @@ We can encounter different types of object properties that are related to protot
 
 ## Object literals
 
-Although it is not encouraged, it is possible to use `\_\_proto\_\_`  to specify the prototype of the object that is created.
+Although it is not encouraged, it is possible to use `__proto__`  to specify the prototype of the object that is created.
 
 ```
 const parent = { proto: true };
@@ -29,7 +29,7 @@ const obj = {
 
 console.log(obj.proto); // true
 ``` 
-In an object literal, property key `\_\_proto\_\_` is a special operator for specifying the prototype of the created objects.
+In an object literal, property key `__proto__` is a special operator for specifying the prototype of the created objects.
 
 ## Object.create
 

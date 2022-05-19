@@ -27,6 +27,7 @@ Collection of notes, TILs, how to do`s and stuff like that.
 - [JavaScript uses 64-bit floating point numbers](JavaScript/JS-64-bit-numbers.md) 
 - [`this` in JavaScript](JavaScript/JS-this.md) 
 - [Array Reduce](JavaScript/array-reduce.md) 
+- [Array Sort](JavaScript/array-sort.md)
 - [Closures](JavaScript/closures.md) 
 - [Differences between declarations](JavaScript/declaration-differences.md) 
 - [ES versions](JavaScript/es-versions.md) 

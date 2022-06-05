@@ -16,7 +16,7 @@ Collection of notes, TILs, how to do`s and stuff like that.
 ### Databases
 
 - [Database indexing](<Databases/indexing.md>)
-- 
+
 ### Git
 
 - [Git HEAD](Git/git-head.md)

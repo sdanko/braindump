@@ -2,6 +2,7 @@ Collection of notes, TILs, how to do`s and stuff like that.
 
 ## Categories
 * [Algorithms & Data Structures](#algorithms--data-structures) 
+* [Databases](#databases) 
 * [Git](#git) 
 * [Java](#java) 
 * [JavaScript](#javascript) 
@@ -12,6 +13,10 @@ Collection of notes, TILs, how to do`s and stuff like that.
 
 - [Big O Notation](<Algorithms & Data Structures/big-o-notation.md>)
 
+### Databases
+
+- [Database indexing](<Databases/indexing.md>)
+- 
 ### Git
 
 - [Git HEAD](Git/git-head.md)

@@ -1,4 +1,4 @@
-# Revert and reset
+# Revert, reset and restore
 
 ## File states
 
@@ -20,24 +20,21 @@ The index has three names: index, staging area, and cache. All refer to the same
   This operation changes the commit history.
   `git reset` can also be used to restore the index, overlapping with `git restore`.
 
-## Remove from the staging area
+## Using restore
 
-To remove from staging, we can use following command:
+To restore a file to the specific commit: 
 
-```git rm --cached <file_name>```
+```git restore --source <commit_id> <file_name>```
 
-Here, we are using the rm command along with switch --cached which indicates the file to be removed from the staging or cached area.
+To unstage a file:
 
-## Remove single file from committed area
+```git restore --staged <file_name>```
 
-First, undo the last commit: 
-
-```git reset HEAD^ <file_name>```
-
-Then, undo changes:
+To revert changes that are not yet commited:
 
 ```git restore <file_name>```
 
 Resources:
 - https://stackoverflow.com/questions/58003030/what-is-the-git-restore-command-and-what-is-the-difference-between-git-restor
+- https://www.makeuseof.com/git-reset-single-file/
 

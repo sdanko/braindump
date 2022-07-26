@@ -22,6 +22,7 @@ Collection of notes, TILs, how to do`s and stuff like that.
 - [Git HEAD](Git/git-head.md)
 - [Git merge](Git/git-merge.md)
 - [Git rebase](Git/git-rebase.md)
+- [Revert, reset and restore](Git/revert-reset-restore.md)
 
 ### Java
 

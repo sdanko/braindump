@@ -43,7 +43,7 @@ const shallowClone = Object.keys(obj).reduce(
 );
 ``` 
 
-In this case we returning an object from every reduce method call. Since objects are passed by reference, this means we will deal with the same object in every method call. In every iteration we add the properties from the original object and in the end we end up with the object that has the identical properties that is returned from the final call.
+In this case we're returning an object from every reduce method call. Since objects are passed by reference, this means we will deal with the same object in every method call. In every iteration we add the properties from the original object and in the end we end up with the object that has the identical properties that is returned from the final call.
 
 Resources:
 - https://www.javascripttutorial.net/javascript-array-reduce/

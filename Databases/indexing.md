@@ -12,11 +12,11 @@ go through every page to look for it. Same idea applies to databases.
 For example, if you have persons database, and you want to search persons by the `firstName` column. You would use a query that looks like this:
 
 ```
-select * from persons where lastName = ‘Bob‘
+select * from persons where firstName = ‘Bob‘
 ```
 
 If there was an index on `firstName` column, the database engine will use logical categorisation of each record
-by the last name to quickly find where that record is physically located on the disk drive(this is called **index seek**). 
+by the first name to quickly find where that record is physically located on the disk drive(this is called **index seek**). 
 If you had the same search scenario without an index on `firstName`, the database engine would have to look at every record to see if 
 it matched the condition(this is called **table scan**). There is also such a thing called an **index scan**. It happens
 when an index does exist but the database engine decides it is quicker to look at the records one by one anyway. These are the

@@ -12,7 +12,7 @@ We can encounter different types of object properties that are related to protot
 
 - **\_\_proto\_\_**  is a property of `Object.prototype` that exposes the hidden `[[Prototype]]` property of an object and allows you to access or modify it. This property should not be used since its deprecated. The standard way to access an object's prototype is the `Object.getPrototypeOf(`) method. You can also modify an object’s prototype using `Object.setPrototypeOf()` method.
 
-- **Function.property** is a property that all functions have except arrow functions. It is only used when a function is invoked as a constructor function. It is the blueprint for creating objects by using that (constructor) function with new keyword.
+- **Function.prototype** is a property that all functions have except arrow functions. It is only used when a function is invoked as a constructor function. It is the blueprint for creating objects by using that (constructor) function with new keyword.
 
 ## Object literals
 

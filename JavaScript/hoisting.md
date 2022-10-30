@@ -1,8 +1,13 @@
 # Hoisting
 
-Hoisting is the mechanism of moving the variables and functions declaration to the top of the function scope (or global scope if outside any function). All declarations are hoisted to the top of their scope. However, `let` and `const` use a concept called `Temporal dead zone(TDZ)`, which means there is a period between entering scope and being declared where they return `ReferenceError` when trying to access them. In contrast, if we try to access `var` before deceleration, it will return `undefined`. Also, `var` declarations has a function scope, whereas `let` and `const` have block scope.
+Hoisting is the mechanism of moving the variables and functions declaration to the top of the function scope 
+(or global scope if outside any function). All declarations are hoisted to the top of their scope. 
+However, `let` and `const` use a concept called `Temporal dead zone(TDZ)`, which means there is a period 
+between entering scope and being declared where they return `ReferenceError` when trying to access them. 
+In contrast, if we try to access `var` before deceleration, it will return `undefined`. Also, `var` declarations
+has a function scope, whereas `let` and `const` have block scope.
 
-This example embodies all the the mentioned concepts:
+This example embodies all the mentioned concepts:
 
 ```
 function isTruthy(value) {

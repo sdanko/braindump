@@ -19,11 +19,11 @@ sort(function compareFn(a, b) { /* ... */ })
 
 When compare function is supplied, all array elements are sorted according to the return value of compare function, All `undefined` elements are sorted to the end of the array(without no call to compare function).
 
-|  **compareFunction(a, b) return value** | **sort order**  |
-|---|---|
-| \>0 | sort b before a  |
-| \<0  |  sort a before b  |
-| === 0 | keep original order of a and b |
+| **compareFunction(a, b) return value** | **sort order**                 |
+|----------------------------------------|--------------------------------|
+| \>0                                    | sort b before a                |
+| \<0                                    | sort a before b                |
+| === 0                                  | keep original order of a and b |
 
 Compare function has the following form:
 ```

@@ -1,6 +1,9 @@
 # ES versions
 
-ECMAScript (or ES) is a JavaScript standard meant to ensure the interoperability of web pages across different web browsers. It is standardized by Ecma (European Computer Manufacturers Association) International. This is the list of released ES version til date:
+ECMAScript (or ES) is a JavaScript standard meant to ensure the interoperability of web pages 
+across different web browsers. It is standardized by 
+Ecma (European Computer Manufacturers Association) International. 
+This is the list of released ES version til date:
 - ES1 1997
 - ES2 1998
 - ES3 1999
@@ -28,7 +31,7 @@ Most important features:
 
 ## ES6
 
-This version comes with significant improvements and it reached the expectations of a modern programming language. Most important features:
+This version comes with significant improvements, and it reached the expectations of a modern programming language. Most important features:
 - [Let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) and [const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
 - [for...of loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
 - [Default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)

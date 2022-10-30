@@ -50,9 +50,8 @@ function qsHelper(array, start, end) {
   
   [array[pivot], array[right]] = [array[right], array[pivot]];
   
-  console.log(array);
   qsHelper(array, start, right - 1);
-  qsHelper(array, right + 1, end)
+  qsHelper(array, right + 1, end);
 }
 ```
 

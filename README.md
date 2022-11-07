@@ -11,10 +11,29 @@ Collection of notes, TILs, how to do`s and stuff like that.
 
 ### Algorithms & Data Structures
 
+- [Arrays](<Algorithms & Data Structures/arrays.md>)
 - [Big O Notation](<Algorithms & Data Structures/big-o-notation.md>)
+- [Binary Search](<Algorithms & Data Structures/binary-search.md>)
+- [Binary Trees](<Algorithms & Data Structures/binary-trees.md>)
+- [Bubble Sort](<Algorithms & Data Structures/bubble-sort.md>)
+- [Graphs](<Algorithms & Data Structures/graphs.md>)
+- [Hash Tables](<Algorithms & Data Structures/hash-tables.md>)
+- [Heaps](<Algorithms & Data Structures/heaps.md>)
+- [Insertion Sort](<Algorithms & Data Structures/insertion-sort.md>)
+- [Linked Lists](<Algorithms & Data Structures/linked-lists.md>)
+- [Logarithm](<Algorithms & Data Structures/logarithm.md>)
+- [Merge Sort](<Algorithms & Data Structures/merge-sort.md>)
+- [Queue](<Algorithms & Data Structures/queue.md>)
+- [Quick Sort](<Algorithms & Data Structures/quick-sort.md>)
+- [Recursion](<Algorithms & Data Structures/recursion.md>)
+- [Selection Sort](<Algorithms & Data Structures/selection-sort.md>)
+- [Stack](<Algorithms & Data Structures/stack.md>)
+- [Trees](<Algorithms & Data Structures/trees.md>)
+- [Tries](<Algorithms & Data Structures/tries.md>)
 
 ### Databases
 
+- [Cardinality](<Databases/cardinality.md>)
 - [Database indexing](<Databases/indexing.md>)
 
 ### Git
@@ -24,9 +43,18 @@ Collection of notes, TILs, how to do`s and stuff like that.
 - [Git rebase](Git/git-rebase.md)
 - [Revert, reset and restore](Git/revert-reset-restore.md)
 
+### IntelliJ
+
+- [Shortcuts](IntelliJ/shortcuts.md)
+
 ### Java
 
+- [Anonymous Function](Java/anonymous-function.md)
 - [`instanceof` With Pattern Matching](Java/instanceof-pattern-matching.md)
+- [Methods](Java/methods.md)
+- [Monads](Java/monads.md)
+- [Serialization](Java/serialization.md)
+- [Try-Catch-Finally](Java/try-catch-finally.md)
 
 ### JavaScript
 

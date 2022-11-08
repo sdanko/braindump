@@ -1,4 +1,4 @@
-# Git rebase
+# Git Rebase
 
 Unlike `merge`, that squashes all the commits into one merge commit, `rebase` preserves the original commits. After the rebase, commits structure is in the single line.
 

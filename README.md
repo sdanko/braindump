@@ -39,9 +39,10 @@ Collection of notes, TILs, how to do`s and stuff like that.
 ### Git
 
 - [Git HEAD](Git/git-head.md)
-- [Git merge](Git/git-merge.md)
-- [Git rebase](Git/git-rebase.md)
-- [Revert, reset and restore](Git/revert-reset-restore.md)
+- [Git Merge](Git/git-merge.md)
+- [Git Rebase](Git/git-rebase.md)
+- [Git Submodules](Git/git-submodules.md)
+- [Revert, Reset and Restore](Git/revert-reset-restore.md)
 
 ### IntelliJ
 

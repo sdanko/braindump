@@ -1,4 +1,4 @@
-# Revert, reset and restore
+# Revert, Reset and Restore
 
 ## File states
 

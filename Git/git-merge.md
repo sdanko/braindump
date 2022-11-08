@@ -1,4 +1,4 @@
-# Git merge
+# Git Merge
 
 There are two modes of merge operation:
 - Fast Forward merge

@@ -4,6 +4,7 @@ Collection of notes, TILs, how to do`s and stuff like that.
 * [Algorithms & Data Structures](#algorithms--data-structures) 
 * [Databases](#databases) 
 * [Git](#git) 
+* [IntelliJ](#intellij) 
 * [Java](#java) 
 * [JavaScript](#javascript) 
 

@@ -34,6 +34,20 @@ To revert changes that are not yet commited:
 
 ```git restore <file_name>```
 
+## Using reset
+
+To undo last commit:
+
+```git reset --soft HEAD~1```
+
+This way, we undo the last commit by preserving the changes done to the files in the index.
+
+In order to undo the last commit and discard all changes in the working directory and index, 
+execute the “git reset” command with the “–hard” option and specify the commit before HEAD (“HEAD~1”):
+
+```git reset --hard HEAD~1```
+
+
 Resources:
 - https://stackoverflow.com/questions/58003030/what-is-the-git-restore-command-and-what-is-the-difference-between-git-restor
 - https://www.makeuseof.com/git-reset-single-file/

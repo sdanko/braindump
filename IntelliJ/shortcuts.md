@@ -67,6 +67,7 @@ on the dropdown list of suggestions.
 - **Ctrl + Alt + Shift + P**: Extract to functional interface.
 - **Ctrl + F6**: Change the signature of the method.
 - **Ctrl + Alt + Shift + T**: Refactor this dialog.
+- **Ctrl + Shift + Backspace**: Jump back to previous edit.
 
 ## Debugging
 

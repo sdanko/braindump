@@ -26,7 +26,7 @@ function quickSort(array) {
 }
 
 function qsHelper(array, start, end) {
-	if(start >= end) {
+  if(start >= end) {
   	return;
   }
   

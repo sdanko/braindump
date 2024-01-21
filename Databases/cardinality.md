@@ -40,7 +40,7 @@ this relationship.
 
 ![one-to-many](../assets/one-to-many.png)
 
-single vertical line (on the left side of this relationship line) indicates that this connector only has one row affected by this relationship.
+Single vertical line (on the left side of this relationship line) indicates that this connector only has one row affected by this relationship.
 
 The crow’s foot with an open circle indicates that this connector has many rows influenced by this relationship. The open circle indicates optionality.
 In other words, there does not have to be a student enrollment record linked to a course.

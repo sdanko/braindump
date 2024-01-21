@@ -2,7 +2,7 @@
 
 Unicode entered the scene to help solve the problems that encoding and ASCII code pages were causing.
 
-Unicode is made up of lots of code points (mapping lots of characters from around the world to a key that all computers can reference.)
+Unicode is made up of lots of code points (mapping lots of characters from around the world to a key that all computers can reference).
 A collection of code points is called a character set - which is what Unicode is. Unicode is sometimes called the **Universal Coded Character Set (UCS)**, 
 or even **ISO/IEC 10646**.
 
@@ -67,8 +67,6 @@ This is what people mean when the encoding is called variable length.
 When you need a character to span more than one byte, you have a bit combination to identify a continuation sign, 
 saying this character is continued over the next several bytes. So you’ll still only use one byte per character for English, 
 but if you need a document to contain some foreign characters, you can do that too.
-
-
 
 Each byte starts with a few bits that tell you whether it's a single byte code-point, a multi-byte code point, 
 or a continuation of a multi-byte code point. Like this:

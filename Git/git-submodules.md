@@ -85,3 +85,4 @@ if any of the committed submodule changes haven’t been pushed. Other option, `
 
 Resources:
 - https://git-scm.com/book/en/v2/Git-Tools-Submodules
+- https://gist.github.com/gitaarik/8735255

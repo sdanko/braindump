@@ -82,6 +82,27 @@ database file, or in a document or a set of documents.
 This type of index is called an inverted index, because it inverts a page-centric data structure
 (page->words) to a keyword-centric data structure (word->pages).
 
+The traditional index method in most databases is the B-tree
+(and its various sub-implementations: B+-tree, B*-tree, etc). In most row-structured database engines, every row in the
+table being indexed gets a row in the B-Tree, with the "index row" containing indexed column(s), some sort of lookup
+identifier back to the base table data.
+
+B-Trees using row-structured data have several useful properties:
+- They are ordered, allowing both equality and searches that make use of order (ie, <, >, prefix LIKE).
+- They are relatively easy to insert into and update as rows stream in, allowing them to be always up-to-date for queries as rows are inserted.
+
+Inverted indexes are not row-structured; the thing they're most similar to is a dictionary. 
+Each unique value in the index gets an index entry, followed by some sort of list of row offsets or IDs with that value.
+This list is often represented with a simple bitmap or compressed bitmap with the i'th bit representing the i'th row in the table being indexed: 1 for value there, 0 for not.
+
+The big advantage of inverted indexes over row-structured indexes is they're excellent for representing
+frequently-appearing values (Cardinality (SQL statements)), which is why they're great for search engines and other types of full-text indexes. They're also great for complex
+search logic on the lookup values, which can be turned into a bunch of bit-ands and bit-ors on the bitmap lists.
+
+The big downside of inverted indexes is their fastest implementations, namely the ones that use bitmaps, are hard to
+update, and often have to be fully rebuilt every time the database is updated. These types of inverted indexes are used
+for load-and-read workloads like search engines.
+
 Resources:
 - https://www.joshgraham.com/full-text-search-explained/
 - https://www.mongodb.com/basics/full-text-search

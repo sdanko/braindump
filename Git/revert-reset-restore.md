@@ -47,6 +47,14 @@ execute the “git reset” command with the “–hard” option and specify th
 
 ```git reset --hard HEAD~1```
 
+## Using revert
+
+To undo a specific commit that has been pushed:
+
+```git revert <commit_id> --no-edit```
+
+The `--no-edit` option prevents git from asking you to enter in a commit message.
+If you don't add that option, you'll end up in the text editor.
 
 Resources:
 - https://stackoverflow.com/questions/58003030/what-is-the-git-restore-command-and-what-is-the-difference-between-git-restor
